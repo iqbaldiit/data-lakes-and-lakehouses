@@ -1,4 +1,4 @@
-version: "3.9"
+#version: "3.9"
 
 services:
   dremio:
@@ -35,7 +35,7 @@ services:
     environment:
       SUPERSET_WEBSERVER_PORT: 8088
       SUPERSET_ADMIN_PASSWORD: admin
-      SUPERSET_SECRET_KEY: xxxxx
+      SUPERSET_SECRET_KEY: 
     volumes:
       - ./superset:/app/superset_home
       - ./superset-init.sh:/app/superset-init.sh

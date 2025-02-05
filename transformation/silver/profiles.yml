@@ -1,4 +1,4 @@
-silver:
+silver: # it needs to be mactched with the profile in the dbt_project.yml
   outputs:
     dev:
       dremio_space: lakehouse
